@@ -7,4 +7,4 @@ spec:
   - port: 9999
     targetPort: 9999
   selector:
-    app: helloworld3
+    app: helloworld
