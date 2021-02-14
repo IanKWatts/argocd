@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       # modify the following line with your Docker Hub account name
-      - image: index.docker.io/flicker/test-1:helloworld3
+      - image: index.docker.io/flicker/test-1:helloworld4
         name: helloworld
         ports:
         - containerPort: 9999
