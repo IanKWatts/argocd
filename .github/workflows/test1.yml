@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - shell: bash
+        env:
+          STRING1: ${{ secrets.PASSWORD1 }}
         run: |
-          expr 1 + 1 > output.log
+          echo "--> $STRING1" > output.log
